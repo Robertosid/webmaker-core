@@ -8,7 +8,8 @@ Webmaker is currently available in the Android Play store. Projects can be share
 
 If you'd like to become a Beta tester for the Android app, you can [opt in here](https://play.google.com/apps/testing/org.mozilla.webmaker).
 
-## Contribute
+## Contribute  
+
 
 This repository contains the core features of Webmaker. We utilize the [wiki](https://github.com/mozilla/webmaker-core/wiki) and [issues](https://github.com/mozilla/webmaker-core/issues) to track the whole project. The Android code resides at [webmaker-android](https://github.com/mozilla/webmaker-android/) and the desktop viewer at [webmaker-browser](https://github.com/mozilla/webmaker-browser/).
 
@@ -36,14 +37,30 @@ If you have any questions about Design feel free to speak to @ricardo on IRC or 
 
 `webmaker-core` is the React based core for the Webmaker app. It's a series of webviews that are integrated into the various platforms running Webmaker (currently: [Android](https://github.com/mozilla/webmaker-android), [Browser](https://github.com/mozilla/webmaker-browser)).
 
-If you'd like to become a beta tester for the Android app, you can opt in by opening this URL on your device: [https://play.google.com/apps/testing/org.mozilla.webmaker](https://play.google.com/apps/testing/org.mozilla.webmaker)
+If you'd like to become a beta tester for the Android app, you can opt in by opening this URL on your device: [https://play.google.com/apps/testing/org.mozilla.webmaker]
 
 ## Installation
 
+
+
+     
 ```bash
-git clone https://github.com/mozilla/webmaker-core.git
+git clone https://g(https://play.google.com/apps/testing/org.mozilla.webmaker)
+ithub.com/mozilla/webmaker-core.git
 npm install
-```
+
+##master
+[psuh]($gitcheckout-bpsuh origen/master)
+
+
+[builtin/psuh.c].
+(int.argc.const char **argv, const char *prefijo);
+builtin.h
+int.cmd_psuh(int argc, const char **argv, const char *prefijo
+
+
+
+
 
 ## Running the core
 
@@ -53,9 +70,17 @@ For local development, you'll begin by running `npm start`, which will compile t
 
 Although `webmaker-core` can run stand-alone, you're typically going to run it as a core dependency of a parent application (aka "platform"). Running stand-alone will have very limited functionality as much of the functionality is delegated to the parent platform (eg: changing views, persistence, device APIs).
 
+
+
+
+
+
+
+
+ 
 ### Create a linkage
 
-In order to do local development, you'll need to `npm link` this package so that as you make updates they are reflected in the app you're working on. To do this, run `npm link` in the root of this project. Next, go into the repo for the platform that will consume it (eg: `webmaker-android`) and run `npm link webmaker-core`.
+In order to do local development, you'll need to `npm link` this package so that as you make updates they are reflected in the app you're working on. To do this, run `npm link` in the root of this project. Next, go into the repo for the platform that will consume it (eg: `webmaker-android`) and run 
 
 ## Adding New Pages or Components
 
